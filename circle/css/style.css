@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height: 1500px;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style-type: none;
+}
+.container{
+	width:60%;
+	margin-top:5%;
+	overflow: hidden;
+}
+
+.circle{
+	border:solid 1px gray;
+	width:100px;
+	height: 100px;
+	border-radius:100%;
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left:50%;
+	background-color:blue;
+	transform:translate(-50% ,-50%);
+	animation-name: circle;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+.font{
+	background-color:;
+	overflow: hidden;
+}
+.col-10{
+	border:1px solid gray;
+	height:500px;
+
+}
+.col-2{
+	border:1px solid gray;
+	height:500px;
+}
+.col-5{
+	overflow: hidden;
+}
+@keyframes circle{
+	0%{
+		top:30%;
+	}
+	50%{
+		top:70%;
+	}
+	100%{
+		top:30%;
+	}
+}
+label{
+	margin-top:15px;
+	margin-bottom:5px;
+}
+#color1,
+#color2{
+	margin-left:5px;
+	width:20px;
+	height:20px;
+}
